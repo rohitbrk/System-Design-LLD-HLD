@@ -1,3 +1,7 @@
+// Encapsulation - handles data (functionality). Can be acheived by - 
+// 1. declare class variables/attributes as private 
+// 2. provide public get and set methods to access and update the value of a private variable
+
 class Phone {
     private int RAM;
 
