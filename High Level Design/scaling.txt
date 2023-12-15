@@ -1,5 +1,6 @@
 Scaling refers to designing a system that can serve heavy user load without going down.
+(Auto Scaling - Cloud service that monitors your applications and automatically adjusts capacity to maintain steady, predictable performance)
 
 Two ways of scaling a system:
-1. Horizontal scaling
-2. Vertical scaling
+1. Horizontal scaling - Add more power (CPU, RAM, Storage etc) to the existing server
+2. Vertical scaling - Add more instances of the server to the pool and distribute load among them
