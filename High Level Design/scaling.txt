@@ -1,4 +1,4 @@
-Scaling refers to designing a system that can serve users as the load increases without going down.
+Scaling refers to designing a system that can serve heavy user load without going down.
 
 Two ways of scaling a system:
 1. Horizontal scaling
