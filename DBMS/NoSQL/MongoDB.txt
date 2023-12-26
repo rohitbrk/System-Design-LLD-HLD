@@ -1,1 +1,5 @@
 # MongoDB
+
+<div>NoSQL can be defined as a technique for database design, which helps accommodate a wide range of data models, including key-value, columnar, documents, or graph data.</div>
+
+<div>MongoDB is a rich open-source and one of the widely recognised NoSQL database. It is written in C++ programming language. It is a document-oriented database</div>
