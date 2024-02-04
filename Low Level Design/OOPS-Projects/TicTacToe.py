@@ -35,14 +35,16 @@ class Board:
 
 
 def play():
-    while True:
-        [player, row, col] = input("player, row and col(space separated): ").split(" ")
-        win = board1.take_input(player, int(row), int(col))
-        if win:
-            break
+    [player, row, col] = input("player, row and col(space separated): ").split(" ")
+    win = board1.take_input(player, int(row), int(col))
+    if win:
+        return True
 
 
 board1 = Board()
 board1.print_board()
-win = play()
-board1.print_board()
+while True:
+    win = play()
+    if win:
+        board1.print_board()
+        break
