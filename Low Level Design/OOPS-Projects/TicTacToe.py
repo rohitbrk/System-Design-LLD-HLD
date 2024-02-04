@@ -65,10 +65,11 @@ def play():
         return True
 
 
-board1 = Board()
-board1.print_board()
-while True:
-    win = play()
-    if win:
-        board1.print_board()
-        break
+if __name__ == "__main__":
+    board1 = Board()
+    board1.print_board()
+    while True:
+        win = play()
+        if win:
+            board1.print_board()
+            break
