@@ -11,6 +11,7 @@ class Board:
             print(self.board[i])
 
     def check_winner(self):
+        # check rows
         if (self.board[0][0] == self.board[0][1]) and (
             self.board[0][1] == self.board[0][2]
         ):
@@ -21,6 +22,29 @@ class Board:
             return True
         elif (self.board[2][0] == self.board[2][1]) and (
             self.board[2][1] == self.board[2][2]
+        ):
+            return True
+        # check columns
+        elif (self.board[0][0] == self.board[1][0]) and (
+            self.board[1][0] == self.board[2][0]
+        ):
+            return True
+        elif (self.board[0][1] == self.board[1][1]) and (
+            self.board[1][1] == self.board[2][1]
+        ):
+            return True
+        elif (self.board[0][2] == self.board[1][2]) and (
+            self.board[1][2] == self.board[2][2]
+        ):
+            return True
+        # check diagonal
+        elif (self.board[0][0] == self.board[1][1]) and (
+            self.board[1][1] == self.board[2][2]
+        ):
+            return True
+        # check reverse diagonal
+        elif (self.board[0][2] == self.board[1][1]) and (
+            self.board[1][1] == self.board[2][0]
         ):
             return True
         else:
