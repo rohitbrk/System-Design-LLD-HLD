@@ -11,3 +11,12 @@ OSI Model - conceptual model used for network communication
 - Session Layer
 - Presentation Layer
 - Application Layer
+
+<br />
+Network topology specifies the layout of a computer network. It shows how devices and cables are connected to each other. The types of topologies are:
+- Bus
+- Star
+- Ring
+- Mesh
+- Tree
+- Hybrid (combination of different topologies)
