@@ -1,0 +1,9 @@
+Linux - Operating system 
+
+
+1. >ls --help
+prints all the help doc related to ls
+2. Lets say you want to create directory but forgot which command to use. Then use
+>appropos director
+it searches all the manual pages for the string including director which includes both directory and directories.
+It will list the available commands - mkdir
