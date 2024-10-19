@@ -20,3 +20,7 @@ Design Patterns can be widely divided into 3 types
    Examples:
    1. Facade
    2. Adapter
+  
+As the names suggest, 
+1. Creational patterns are about creating classes
+3. Behavioural patterns are about the behaviour of class/ classes with each other
