@@ -1,5 +1,5 @@
-// Abstraction is hiding details and only showing necessary info to the user
-// This can be acheived by using Abstract Classes or Interfaces
+// Abstraction is hiding details and only showing necessary info to the user/ ( the one who is going to use this abstraction class )
+// This can be acheived by using Abstract classes or Interfaces
 
 // interface Animal {
   // the body for these methods should be implemented in the class
