@@ -20,10 +20,20 @@ class Dog extends Animal {
   }
 }
 
+class Cat extends Animal {
+  public void makeSound() {
+    System.out.println("meow meow");
+  }
+}
+
 class Main {
   public static void main(String[] args) {
-    Dog myDog = new Dog(); // Create a Pig object
+    Dog myDog = new Dog(); 
     myDog.makeSound();
     myDog.sleep();
+    
+    Cat myCat = new Cat(); 
+    myCat.makeSound();
+    myCat.sleep();
   }
 }
